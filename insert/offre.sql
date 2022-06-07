@@ -1,0 +1,1 @@
+insert into maintenance values (1 , 'lite' , 15000) , (2 , 'premium' , 25000) , (3 , 'VIP' , 30000) ;

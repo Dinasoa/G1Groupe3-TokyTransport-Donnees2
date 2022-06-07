@@ -1,0 +1,1 @@
+insert into maintenance values (1 , 'essence' , 1000000) , (2 , 'entretien' , 1500000) ;
