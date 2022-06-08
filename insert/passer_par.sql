@@ -1,1 +1,0 @@
-insert into passer_par values (2 , 6) , (7 , 8) , (2 , 12) ;
