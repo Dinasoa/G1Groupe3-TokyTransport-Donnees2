@@ -1,2 +1,14 @@
-insert into requerir values ( 1 , 1 ) , (1 , 2) , ( 1 , 3 ) , (2 , 4 ) , (2 , 5) , (1 , 5) , (1 , 6) , (1 , 7) , (1 , 8) , (1 , 9) , (2 , 9) ,
-(1 , 10) , (2 , 10) , (1 , 11) , (1 , 12) , (1 , 13) , (1 , 14) ;
+insert into requerir (id_maintenance, id_voyage) values (2, 1);
+insert into requerir (id_maintenance, id_voyage) values (2, 2);
+insert into requerir (id_maintenance, id_voyage) values (2, 3);
+insert into requerir (id_maintenance, id_voyage) values (1, 4);
+insert into requerir (id_maintenance, id_voyage) values (2, 5);
+insert into requerir (id_maintenance, id_voyage) values (2, 6);
+insert into requerir (id_maintenance, id_voyage) values (2, 7);
+insert into requerir (id_maintenance, id_voyage) values (1, 8);
+insert into requerir (id_maintenance, id_voyage) values (1, 9);
+insert into requerir (id_maintenance, id_voyage) values (1, 10);
+insert into requerir (id_maintenance, id_voyage) values (2, 11);
+insert into requerir (id_maintenance, id_voyage) values (2, 12);
+insert into requerir (id_maintenance, id_voyage) values (1, 13);
+insert into requerir (id_maintenance, id_voyage) values (2, 14);

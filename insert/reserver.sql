@@ -1,6 +1,26 @@
-insert into reserver values (1 , 1 , 1 , 2 , '2022-06-08' , 15000) , (2 , 1 , 1 , 3 , '2022-06-08' , 10000) , (3 , 1 , 1 , 4 , '2022-06-08' , 15000) , 
-(4 , 1 , 1 , 5 , '2022-06-09' , 10000) , (5 , 1 , 1 , 6 , '2022-06-09' , 10000) , (6 , 2 , 2 , 2 , '2022-06-07' , 25000) , 
-(7 , 2 , 2 , 3 ,'2022-06-07' , 20000) , (8 , 2 , 2 , 4 , '2022-06-08' , 20000) , (9 , 2 , 2, 5 , '2022-06-08' , 25000) , (10 , 2 , 2 , 6 , '2022-06-09' , 25000) ,
-(11 , 2 , 2 , 7 , '2022-06-09' , 25000) , (12 , 2 , 2 , 8 , '2022-06-09' , 25000 ) , (13 , 2 , 2 , 9 , '2022-06-09' , 25000) , (14 , 2 , 2 , 10 , '2022-06-10' , 20000) ,
-(15 , 3 , 5 , 2 , '2022-06-08' , 30000) , (16 , 3 , 5 , 3 , '2022-06-08', 25000 ) , (17 , 3 , 5 , 4 , '2022-06-09' , 30000) ,
-(18 , 3 , 5 , 5 , '2022-06-09' , 30000) , (19 , 3 , 5 , 6 , '2022-06-10' , 30000) ;
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (1, 2, 14, 17, '2022-06-06', 25000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (2, 2, 14, 16, '2022-05-15', 25000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (3, 1, 12, 2, '2022-04-15', 15000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (4, 2, 11, 12, '2022-05-20', 25000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (5, 2, 3, 3, '2022-02-05', 25000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (6, 2, 13, 5, '2022-03-10', 25000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (7, 1, 10, 15, '2022-01-21', 15000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (8, 1, 7, 13, '2022-02-08', 15000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (9, 2, 6, 9, '2022-04-12', 25000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (10, 2, 3, 15, '2022-03-01', 25000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (11, 1, 14, 10, '2022-02-24', 15000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (12, 2, 5, 7, '2022-04-20', 25000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (13, 1, 14, 15, '2022-03-10', 15000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (14, 2, 14, 14, '2022-04-13', 25000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (15, 1, 10, 7, '2022-05-26', 15000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (16, 2, 9, 6, '2022-01-13', 25000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (17, 1, 9, 12, '2022-06-04', 15000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (18, 2, 14, 12, '2022-04-05', 25000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (19, 1, 2, 10, '2022-02-08', 15000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (20, 1, 8, 11, '2022-06-04', 15000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (21, 1, 8, 17, '2022-03-09', 15000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (22, 2, 3, 10, '2022-03-28', 25000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (23, 1, 9, 18, '2022-03-18', 15000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (24, 1, 1, 3, '2022-01-19', 15000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (25, 1, 4, 16, '2022-01-13', 15000);
+ '2022-06-09' , 30000) , (19 , 3 , 5 , 6 , '2022-06-10' , 30000) ;
