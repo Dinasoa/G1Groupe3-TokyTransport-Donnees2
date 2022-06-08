@@ -42,7 +42,7 @@ insert into chauffeur (id_chauffeur, nom_complet, mail_chauffeur, contact_chauff
 
 
 --table offre
-insert into maintenance values (1 , 'lite' , 15000) , (2 , 'premium' , 25000) , (3 , 'VIP' , 30000) ;
+insert into offre values (1 , 'lite' , 15000) , (2 , 'premium' , 25000) , (3 , 'VIP' , 30000) ;
 
 --table client
 insert into client (id_client, nom_client, prenom_client, contact ) values (1, 'Avictor', 'Oliphant', '+261347746625');
@@ -98,88 +98,33 @@ insert into client (id_client, nom_client, prenom_client, contact ) values (50, 
 
 --table maintenance
 insert into maintenance values (1 , 'essence' , 1000000) , (2 , 'entretien' , 1500000) ;
-insert into maintenance (date_maintenance) values ('2022-06-07');
-insert into maintenance (date_maintenance) values ('2022-06-07');
 
 --table requerir
-insert into requerir (id_maintenance, id_voyage) values (2, 1);
-insert into requerir (id_maintenance, id_voyage) values (2, 2);
-insert into requerir (id_maintenance, id_voyage) values (2, 3);
-insert into requerir (id_maintenance, id_voyage) values (1, 4);
-insert into requerir (id_maintenance, id_voyage) values (2, 5);
-insert into requerir (id_maintenance, id_voyage) values (2, 6);
-insert into requerir (id_maintenance, id_voyage) values (2, 7);
-insert into requerir (id_maintenance, id_voyage) values (1, 8);
-insert into requerir (id_maintenance, id_voyage) values (1, 9);
-insert into requerir (id_maintenance, id_voyage) values (1, 10);
-insert into requerir (id_maintenance, id_voyage) values (2, 11);
-insert into requerir (id_maintenance, id_voyage) values (2, 12);
-insert into requerir (id_maintenance, id_voyage) values (1, 13);
-insert into requerir (id_maintenance, id_voyage) values (2, 14);
+insert into requerir (id_maintenance, id_vehicule , date_maintenance) values (2, 1 , '2022-06-10');
+insert into requerir (id_maintenance,  id_vehicule, date_maintenance) values (2, 2) , '2022-06-12';
+insert into requerir (id_maintenance,  id_vehicule, date_maintenance) values (2, 3 , '2022-06-13');
+insert into requerir (id_maintenance,  id_vehicule , date_maintenance) values (1, 4 , '2022-06-13');
+insert into requerir (id_maintenance,  id_vehicule , date_maintenance) values (2, 5) , '2022-06-14';
+insert into requerir (id_maintenance, id_vehicule , date_maintenance) values (2, 6 , '2022-06-14');
+insert into requerir (id_maintenance, id_vehicule, date_maintenance) values (2, 7 , '2022-06-14');
+insert into requerir (id_maintenance,  id_vehicule, date_maintenance) values (1, 8 , '2022-06-14');
+insert into requerir (id_maintenance,  id_vehicule, date_maintenance) values (1, 9 , '2022-06-15');
+insert into requerir (id_maintenance, id_vehicule , date_maintenance) values (1, 10 , '2022-06-15');
+insert into requerir (id_maintenance,  id_vehicule, date_maintenance) values (2, 11 , '2022-06-16');
+insert into requerir (id_maintenance, id_vehicule, date_maintenance) values (2, 12 , '2022-06-16');
+insert into requerir (id_maintenance, id_vehicule , date_maintenance) values (1, 13 , '2022-06-17');
+insert into requerir (id_maintenance,  id_vehicule, date_maintenance) values (2, 14 , '2022-06-18');
 
 --table reserver
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (1, 2, 14, 17, '2022-06-06', 25000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (2, 2, 14, 16, '2022-05-15', 20000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (3, 1, 12, 2, '2022-04-15', 15000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (4, 2, 11, 12, '2022-05-20', 25000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (5, 2, 3, 3, '2022-02-05', 25000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (6, 2, 13, 5, '2022-03-10', 5000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (7, 1, 10, 15, '2022-01-21', 13000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (8, 1, 7, 13, '2022-02-08', 15000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (9, 2, 6, 9, '2022-04-12', 5000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (10, 2, 3, 15, '2022-03-01', 25000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (10, 2, 3, 16, '2022-03-01', 25000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (10, 2, 3, 17, '2022-03-01', 25000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (11, 1, 14, 10, '2022-02-24', 15000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (12, 2, 5, 7, '2022-04-20', 15000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (13, 1, 14, 15, '2022-03-10', 15000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (14, 2, 14, 14, '2022-04-13', 25000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (15, 1, 10, 7, '2022-05-26', 15000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (16, 2, 9, 6, '2022-01-13', 25000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (17, 1, 9, 12, '2022-06-04', 15000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (18, 2, 14, 12, '2022-04-05', 25000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (19, 1, 2, 10, '2022-02-08', 15000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (20, 1, 8, 11, '2022-06-04', 10000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (21, 1, 8, 17, '2022-03-09', 15000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (22, 2, 3, 10, '2022-03-28', 25000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (23, 1, 9, 1, '2022-03-18', 15000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (23, 1, 9, 10, '2022-03-18', 15000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (23, 1, 9, 11, '2022-03-18', 15000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (23, 1, 9, 17, '2022-03-18', 15000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (23, 1, 9, 18, '2022-03-18', 15000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (24, 1, 1, 3, '2022-01-19', 15000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (25, 1, 4, 16, '2022-01-13', 15000);
-insert into reserver (id_vehicule) values (1);
-insert into reserver (id_vehicule) values (2);
-insert into reserver (id_vehicule) values (3);
-insert into reserver (id_vehicule) values (4);
-insert into reserver (id_vehicule) values (5);
-insert into reserver (id_vehicule) values (6);
-insert into reserver (id_vehicule) values (7);
-insert into reserver (id_vehicule) values (8);
-insert into reserver (id_vehicule) values (9);
-insert into reserver (id_vehicule) values (10);
-insert into reserver (id_vehicule) values (10);
-insert into reserver (id_vehicule) values (10);
-insert into reserver (id_vehicule) values (11);
-insert into reserver (id_vehicule) values (12);
-insert into reserver (id_vehicule) values (13);
-insert into reserver (id_vehicule) values (14);
-insert into reserver (id_vehicule) values (15);
-insert into reserver (id_vehicule) values (16);
-insert into reserver (id_vehicule) values (17);
-insert into reserver (id_vehicule) values (18);
-insert into reserver (id_vehicule) values (19);
-insert into reserver (id_vehicule) values (20);
-insert into reserver (id_vehicule) values (21);
-insert into reserver (id_vehicule) values (22);
-insert into reserver (id_vehicule) values (23);
-insert into reserver (id_vehicule) values (23);
-insert into reserver (id_vehicule) values (23);
-insert into reserver (id_vehicule) values (23);
-insert into reserver (id_vehicule) values (23);
-insert into reserver (id_vehicule) values (24);
-insert into reserver (id_vehicule) values (25);
+insert into reserver values ( 1 , 1 , 1 , 1 , 2 , current_date , 15000) ;
+insert into reserver values (2 , 1 , 1 , 1 , 3 , current_date , 10000) ;
+insert into reserver values (3 , 1 , 1 , 1 , 4 , current_date , 15000) ;
+insert into reserver values (4 , 2 , 2 , 2 , 2 , current_date , 25000 ) ;
+insert into reserver values (5 , 2 , 2 , 2 , 2 , current_date , 20000) ;
+insert into reserver values (6 , 3 , 3 , 1 , 6 , current_date , 30000) ;
+insert into reserver values (7 , 3 , 3 , 2 , 10 , current_date , 35000 ) ;
+insert into reserver values (1 , 2 , 14 , 14 , 5 , current_date , 35000) ;
+insert into reserver values (10 , 3 , 14 , 14 , 3 , current_date , 30000) ;
 
 --table utiliser
 insert into utiliser (id_vehicule, id_voyage) values (1, 1);
@@ -197,47 +142,47 @@ insert into utiliser (id_vehicule, id_voyage) values (12, 2);
 insert into utiliser (id_vehicule, id_voyage) values (13, 1);
 insert into utiliser (id_vehicule, id_voyage) values (14, 1);
 
---table vehicule
-insert into vehicule (nombre_places, matricule) values (10, '19UUA662');
-insert into vehicule (nombre_places, matricule) values (10, '2G4WF521');
-insert into vehicule (nombre_places, matricule) values (10, '5TDBKRFH');
-insert into vehicule (nombre_places, matricule) values (10, 'WVGAV7AX');
-insert into vehicule (nombre_places, matricule) values (10, '1VWAP7A3');
-insert into vehicule (nombre_places, matricule) values (10, 'WAUKD98P');
-insert into vehicule (nombre_places, matricule) values (10, '5GADT13S');
-insert into vehicule (nombre_places, matricule) values (10, '1GKS1AE0');
-insert into vehicule (nombre_places, matricule) values (10, 'JN1BY1AP');
-insert into vehicule (nombre_places, matricule) values (10, '19UUA9F7');
-insert into vehicule (nombre_places, matricule) values (10, '1G6AR5SX');
-insert into vehicule (nombre_places, matricule) values (10, '1C4RDHEG');
-insert into vehicule (nombre_places, matricule) values (10, 'JN1AY1AR');
-insert into vehicule (nombre_places, matricule) values (10, '1G6D25EY');
-insert into vehicule (nombre_places, matricule) values (10, '2T3BFREV');
-insert into vehicule (nombre_places, matricule) values (18, '2C3CDXGJ');
-insert into vehicule (nombre_places, matricule) values (18, '4USBU535');
-insert into vehicule (nombre_places, matricule) values (18, '1FTEX1EW');
-insert into vehicule (nombre_places, matricule) values (18, 'WVWED7AJ');
-insert into vehicule (nombre_places, matricule) values (18, '3D7TP2CT');
-insert into vehicule (nombre_places, matricule) values (18, '1FTSW3B5');
-insert into vehicule (nombre_places, matricule) values (18, '1N4AL2AP');
-insert into vehicule (nombre_places, matricule) values (18, 'JN1BJ0HP');
-insert into vehicule (nombre_places, matricule) values (18, '4T1BK1EB');
-insert into vehicule (nombre_places, matricule) values (18, 'SAJWA6E7');
-insert into vehicule (nombre_places, matricule) values (18, 'WA1DGAFE');
-insert into vehicule (nombre_places, matricule) values (18, '3C3CFFJH');
-insert into vehicule (nombre_places, matricule) values (18, 'WUARL48H');
-insert into vehicule (nombre_places, matricule) values (18, 'WBA3F9C5');
-insert into vehicule (nombre_places, matricule) values (18, '1J4RR4GG');
-insert into vehicule (nombre_places, matricule) values (18, '2T1BU4EE');
-insert into vehicule (nombre_places, matricule) values (18, '2C3CCADG');
-insert into vehicule (nombre_places, matricule) values (18, '3GTXCYEJ');
-insert into vehicule (nombre_places, matricule) values (18, '5TDBK3EH');
-insert into vehicule (nombre_places, matricule) values (18, 'WP1AA2A2');
-insert into vehicule (nombre_places, matricule) values (18, 'WBAVB175');
-insert into vehicule (nombre_places, matricule) values (18, '5UXWX7C5');
-insert into vehicule (nombre_places, matricule) values (18, '3VW4S7AT');
-insert into vehicule (nombre_places, matricule) values (18, 'JTDZN3EU');
-insert into vehicule (nombre_places, matricule) values (18, 'SCFAD01A');
+--table vehicules
+insert into vehicules (id_vehicule ,nombre_places, matricule) values (10, '19UUA662');
+insert into vehicules (nombre_places, matricule) values (10, '2G4WF521');
+insert into vehicules (nombre_places, matricule) values (10, '5TDBKRFH');
+insert into vehicules (nombre_places, matricule) values (10, 'WVGAV7AX');
+insert into vehicules (nombre_places, matricule) values (10, '1VWAP7A3');
+insert into vehicules (nombre_places, matricule) values (10, 'WAUKD98P');
+insert into vehicules (nombre_places, matricule) values (10, '5GADT13S');
+insert into vehicules (nombre_places, matricule) values (10, '1GKS1AE0');
+insert into vehicules (nombre_places, matricule) values (10, 'JN1BY1AP');
+insert into vehicules (nombre_places, matricule) values (10, '19UUA9F7');
+insert into vehicules (nombre_places, matricule) values (10, '1G6AR5SX');
+insert into vehicules (nombre_places, matricule) values (10, '1C4RDHEG');
+insert into vehicules (nombre_places, matricule) values (10, 'JN1AY1AR');
+insert into vehicules (nombre_places, matricule) values (10, '1G6D25EY');
+insert into vehicules (nombre_places, matricule) values (10, '2T3BFREV');
+insert into vehicules (nombre_places, matricule) values (18, '2C3CDXGJ');
+insert into vehicules (nombre_places, matricule) values (18, '4USBU535');
+insert into vehicules (nombre_places, matricule) values (18, '1FTEX1EW');
+insert into vehicules (nombre_places, matricule) values (18, 'WVWED7AJ');
+insert into vehicules (nombre_places, matricule) values (18, '3D7TP2CT');
+insert into vehicules (nombre_places, matricule) values (18, '1FTSW3B5');
+insert into vehicules (nombre_places, matricule) values (18, '1N4AL2AP');
+insert into vehicules (nombre_places, matricule) values (18, 'JN1BJ0HP');
+insert into vehicules (nombre_places, matricule) values (18, '4T1BK1EB');
+insert into vehicules (nombre_places, matricule) values (18, 'SAJWA6E7');
+insert into vehicules (nombre_places, matricule) values (18, 'WA1DGAFE');
+insert into vehicules (nombre_places, matricule) values (18, '3C3CFFJH');
+insert into vehicules (nombre_places, matricule) values (18, 'WUARL48H');
+insert into vehicules (nombre_places, matricule) values (18, 'WBA3F9C5');
+insert into vehicules (nombre_places, matricule) values (18, '1J4RR4GG');
+insert into vehicules (nombre_places, matricule) values (18, '2T1BU4EE');
+insert into vehicules (nombre_places, matricule) values (18, '2C3CCADG');
+insert into vehicules (nombre_places, matricule) values (18, '3GTXCYEJ');
+insert into vehicules (nombre_places, matricule) values (18, '5TDBK3EH');
+insert into vehicules (nombre_places, matricule) values (18, 'WP1AA2A2');
+insert into vehicules (nombre_places, matricule) values (18, 'WBAVB175');
+insert into vehicules (nombre_places, matricule) values (18, '5UXWX7C5');
+insert into vehicules (nombre_places, matricule) values (18, '3VW4S7AT');
+insert into vehicules (nombre_places, matricule) values (18, 'JTDZN3EU');
+insert into vehicules (nombre_places, matricule) values (18, 'SCFAD01A');
 
 --table ville
 insert into ville values (1 , 'Antananarivo') , (2 , 'Antsirabe') , (3 , 'Fianarantsoa') , (4 , 'Tulear') , (5 , 'Morondava') , (6 , 'Tamatave') , 
