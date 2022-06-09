@@ -1,3 +1,4 @@
+
 --table chauffeur 
 insert into chauffeur (id_chauffeur, nom_complet, mail_chauffeur, contact_chauffeur , id_vehicule) values (1, 'Terri Dilawey', 'tdilawey0@naver.com', '+261346457281', 1);
 insert into chauffeur (id_chauffeur, nom_complet, mail_chauffeur, contact_chauffeur , id_vehicule) values (2, 'Shawn Kondratenko', 'skondratenko1@is.gd', '+261341185524', 2);
@@ -101,10 +102,10 @@ insert into maintenance values (1 , 'essence' , 1000000) , (2 , 'entretien' , 15
 
 --table requerir
 insert into requerir (id_maintenance, id_vehicule , date_maintenance) values (2, 1 , '2022-06-10');
-insert into requerir (id_maintenance,  id_vehicule, date_maintenance) values (2, 2) , '2022-06-12';
+insert into requerir (id_maintenance,  id_vehicule, date_maintenance) values (2, 2 , '2022-06-12');
 insert into requerir (id_maintenance,  id_vehicule, date_maintenance) values (2, 3 , '2022-06-13');
 insert into requerir (id_maintenance,  id_vehicule , date_maintenance) values (1, 4 , '2022-06-13');
-insert into requerir (id_maintenance,  id_vehicule , date_maintenance) values (2, 5) , '2022-06-14';
+insert into requerir (id_maintenance,  id_vehicule , date_maintenance) values (2, 5 , '2022-06-14');
 insert into requerir (id_maintenance, id_vehicule , date_maintenance) values (2, 6 , '2022-06-14');
 insert into requerir (id_maintenance, id_vehicule, date_maintenance) values (2, 7 , '2022-06-14');
 insert into requerir (id_maintenance,  id_vehicule, date_maintenance) values (1, 8 , '2022-06-14');
