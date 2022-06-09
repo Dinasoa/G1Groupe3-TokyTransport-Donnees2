@@ -1,3 +1,7 @@
+CREATE DATABASE toky_trans1 ; 
+
+\c toky_trans1 ;
+
 --table chauffeur 
 insert into chauffeur (id_chauffeur, nom_complet, mail_chauffeur, contact_chauffeur , id_vehicule) values (1, 'Terri Dilawey', 'tdilawey0@naver.com', '+261346457281', 1);
 insert into chauffeur (id_chauffeur, nom_complet, mail_chauffeur, contact_chauffeur , id_vehicule) values (2, 'Shawn Kondratenko', 'skondratenko1@is.gd', '+261341185524', 2);
