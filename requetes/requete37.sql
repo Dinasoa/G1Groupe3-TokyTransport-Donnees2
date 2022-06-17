@@ -1,0 +1,2 @@
+--Les chauffeurs qui vont conduire les vehicules pour un voyage 
+select nom_complet , chauffeur.id_vehicule , voyage.id_voyage from chauffeur , voyage , utiliser where utiliser.id_voyage = voyage.id_voyage ;  
