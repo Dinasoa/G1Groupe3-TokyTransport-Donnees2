@@ -1,0 +1,1 @@
+SELECT id_vehicule, places_dispo from vehicules  where places_dispo < nombre_places;
