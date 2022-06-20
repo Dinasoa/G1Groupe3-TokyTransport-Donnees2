@@ -1,0 +1,1 @@
+SELECT id_client,type,id_voyage from client,offre INNER JOIN voyage ON offre.id_offre;

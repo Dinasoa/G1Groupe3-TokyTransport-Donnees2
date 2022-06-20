@@ -1,0 +1,1 @@
+SELECT id_vehicule,heure_depart,nom_ville from vehicules, ville INNER JOIN voyage ON voyage.id_voyage = ville.id_ville;

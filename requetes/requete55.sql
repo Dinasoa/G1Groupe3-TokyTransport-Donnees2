@@ -1,0 +1,1 @@
+SELECT matricule,nom_complet,jour_depart from vehicules,chauffeur INNER JOIN voyage ON id_vehicule =id_chauffeur;
