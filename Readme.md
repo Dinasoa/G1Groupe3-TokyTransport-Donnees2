@@ -8,7 +8,7 @@
 
 ## Demandes
 
-- Ce dossier contient tous les requetes
+- Ce dossier contient toutes les requetes
 
 ## Allnsert.sql
 
