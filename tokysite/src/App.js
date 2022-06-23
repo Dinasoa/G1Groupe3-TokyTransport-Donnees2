@@ -5,6 +5,9 @@ import Select from 'react-select';
 import BootstrapDatePickerComponent from './BootstrapDatePickerComponent';
 import InfoModal from './ReserverButton';
 import Reserver from './ReserverButton';
+import VIP from './image/VIP.jpg';
+import PREMIUM from './image/PREMIUM.jpg';
+import LITE from './image/LITE.png'
 
 function App() {
   
@@ -37,7 +40,7 @@ const jour = [
                 <a href="">HOME</a>
             </li>
             <li>
-                <a href="">Offers</a>
+                <a href="#offers">Offers</a>
             </li>
             <li>
                <a href="">Booking</a>
@@ -48,7 +51,7 @@ const jour = [
         </ul>
     </nav>
       
-      <div class="bg-image">
+    <div class="bg-image">
       <img src={logo2}></img>
           <div class="paragraphe">
               <h1>TOKYTRANS</h1>
@@ -56,31 +59,29 @@ const jour = [
               <Reserver/>
           </div>
       </div>
-      <h1 className="text-center"> Available offers </h1>
+      <h1 className="text-center" id="offers"> Available offers </h1>
 
      <div className="offres text-center">
       {/* <div class="row"> */}
       <div class="col">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
+      <img src={VIP}></img>
         <h2 class="fw-normal">PREMIUM</h2>
         <p>lorem ipsum</p>
         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
       </div>
-      <div class="col">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
+      <div class="col">
+      <img src={LITE}></img>
+        <p>lorem  ipsum</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div>
+      <div class="col">
+      <img src={PREMIUM}></img>
         <h2 class="fw-normal">VIP</h2>
         <p>lorem ipsum</p>
         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
       </div>
-      <div class="col">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
-        <h2 class="fw-normal">LITE</h2>
-        <p>lorem  ipsum</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-      </div>
+    
     </div>
      {/* </div>  */}
   <div class="card containers">
