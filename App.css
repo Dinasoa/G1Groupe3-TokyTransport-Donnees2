@@ -207,8 +207,7 @@ table{
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #EFEFEF;
-  background-image: url(./footer.png);
+  background-color: rgb(53, 53, 53);
   background-size:cover;
 }
 
