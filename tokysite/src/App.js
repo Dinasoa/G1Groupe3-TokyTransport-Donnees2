@@ -110,11 +110,20 @@ return (
       </div>
 
       <button className='btn btn-secondary bouton' > Search </button>
-      <button className='btn btn-primary bouton' onClick={toggle}> Switch </button>
+      <button className='btn btn-primary bouton' onClick={toggle}> Switch to admin</button>
       {affiche}
       
       
   </div>  
+
+  <footer>
+      <div className="footer-gray">
+        <div className="footer-custom">
+          <h3>2021-2022</h3>
+          <p>@Created by Anonymous Team</p>
+        </div>
+      </div>
+    </footer>
 
  
   

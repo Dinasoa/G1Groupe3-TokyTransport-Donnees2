@@ -202,6 +202,29 @@ table{
   padding: 50px;
 }
 
+/*Footer*/
+.footer-gray {
+  position:relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #EFEFEF;
+  /* background-image: url(./footer.png);
+  background-size:cover; */
+}
+
+.footer-custom {
+  border-top:1.5px solid rgb(145, 221, 251);
+  color: #888;
+  font: normal normal 12px/1.4 "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  max-width: 1008px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 24px;
+  text-align: center;
+}
+
+
 /* KEYFRAMES */
 
 @keyframes MoveBackgroundPosition { 
