@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Yantramanav";
+}
+.navbar ul li{
+  list-style-type: none;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  margin: 50px ;
+}
+.navbar ul li a:hover{
+  background-image: repeating-linear-gradient(to right, #a2682a 0%, #be8c3c 8%, #be8c3c 18%, #d3b15f 27%, #faf0a0 35%, #ffffc2 40%, #faf0a0 50%, #d3b15f 58%, #be8c3c 67%, #b17b32 77%, #bb8332 83%, #d4a245 88%, #e1b453 93%, #a4692a 100%);
+  background-size: 150%;
+  font-size: 20px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  filter: drop-shadow(0 0 1px rgba(255, 200, 0, .3));
+  animation: MoveBackgroundPosition 6s ease-in-out infinite;
+}
+.navbar img{
+  position: absolute;
+  left: 0;
+  height: 15vh ;
+}
+
+.navbar{
+  display: flex;
+  background-color: rgb(53, 53, 53);
+  justify-content: end;
+  min-height: 15vh;
+}
+
+.navbar ul{
+  display: flex;
+  white-space: break-spaces;
+  position: absolute;
+  top: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#offers{
+  color: #d1801c;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  margin-bottom: 1%;
+ 
+}
+
+.body .left{
+  float: right;
+}
+
+.body img{
+  height: 50vh;
+}
+
+.bg-image{
+  background-color: rgb(53, 53, 53);
+}
+
+.bg-image img{
+  width: 45%;
+  margin-left: 8%;
+}
+
+.bg-image .paragraphe{
+  color: white;
+  position: absolute;
+  right: 15%;
+  top: 40%;
+}
+
+.bg-image{
+  display: flex;
+
+}
+
+.bg-image .paragraphe button{
+  padding: 10px;
+  width: 45%;
+  color: #d1801c;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0);
+  position: absolute;
+  right: 27%;
+  top: 150%;
+  border-color: rgb(34, 34, 34);
+}
+
+.bg-image .paragraphe button:hover{
+  background-color: rgba(255, 255, 255, 0.676);
+  font-weight: bold;
+
+}
+
+.bg-image .paragraphe h1{
+  font-family: 'Times New Roman', Times, serif;  
+  background-image: repeating-linear-gradient(to right, #a2682a 0%, #be8c3c 8%, #be8c3c 18%, #d3b15f 27%, #faf0a0 35%, #ffffc2 40%, #faf0a0 50%, #d3b15f 58%, #be8c3c 67%, #b17b32 77%, #bb8332 83%, #d4a245 88%, #e1b453 93%, #a4692a 100%);
+  background-size: 150%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size:50px;
+  font-weight: bold;
+  /* font-family: "Yantramanav"; */
+  font-family: 'Times New Roman', Times, serif;
+  filter: drop-shadow(0 0 1px rgba(255, 200, 0, .3));
+  animation: MoveBackgroundPosition 6s ease-in-out infinite;
+}
+
+.bg-image .paragraphe p{
+  font-size: 25px;
+  position: absolute;
+  right: 20%;
+  top: 90%;
+  font-family: "Yantramanav";
+}
+
+.reservation{
+  margin-left: 25%;
+}
+
+.inputs{
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+}
+
+.inputs .first{
+  margin-right: 5px;
+}
+
+.card #tab{
+  justify-content: center ;
+}
+
+h1{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.offres{
+  margin-bottom: 5%;
+  display: flex;
+}
+
+.containers{
+  background-color: rgba(62, 62, 62, 62);
+}
+
+.reservationModalTitle{
+    color: #d1801c;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;   
+    margin: auto;
+}
+
+.reservationModalTitle p{
+  position: absolute;
+  left: 34%;
+  font-size: 50px;
+}
+.reservationModalTitle img{
+  width: 10vw;
+  margin-top: 55px;
+  margin-left: 75%;
+}
+
+.ModalHeader{
+  padding: 1%;
+  background-color: rgba(62, 62, 62, 62);
+}
+
+.ModalFooter{
+  background-color: rgba(62, 62 , 62 , 62 );
+}
+
+.inputs label{
+  color: white;
+}
+
+.inputs{
+  justify-content: space-around ;
+  margin-bottom : 50px
+}
+
+.bouton{
+  width: 15%;
+  margin: auto;
+}
+
+table{
+  margin-top: 5%;
+  padding: 50px;
+}
+
+/*Footer*/
+.footer-gray {
+  position:relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #EFEFEF;
+}
+
+.footer-custom {
+  border-top:1.5px solid rgb(145, 221, 251);
+  color: #888;
+  font: normal normal 12px/1.4 "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  max-width: 1008px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 24px;
+  text-align: center;
+}
+
+
+/* KEYFRAMES */
+
+@keyframes MoveBackgroundPosition { 
+  0% {
+      background-position: 0% 50%
+  }
+  
+  50% {
+    background-position: 100% 50%
+  }
+  
+  100% {
+    background-position: 0% 50%
+  }
+}
