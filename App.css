@@ -201,14 +201,14 @@ table{
   margin-top: 5%;
   padding: 50px;
 }
+
 /*Footer*/
 .footer-gray {
   position:relative;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgb(53, 53, 53);
-  background-size:cover;
+  background-color: #EFEFEF;
 }
 
 .footer-custom {
@@ -221,6 +221,7 @@ table{
   padding: 24px;
   text-align: center;
 }
+
 
 /* KEYFRAMES */
 
